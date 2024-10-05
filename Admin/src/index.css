@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+  }
+
+  .list-food{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+  }
+
+  .list-order{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr 0.5fr ;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid orange;
+    color: #505050;
+    font-size: 14px;
+  }

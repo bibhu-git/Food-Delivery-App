@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-img{
+  background-image: url('assets/header_img.png');
+  background-size: cover;
+}
+.food-display-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
+.cart-item-title{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  font-size: max(1vw,12px);
+}
+
+.order-display{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1.5fr 1fr;
+  align-items: center;
+  gap: 20px;
+  row-gap: 50px;
+}
